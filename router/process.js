@@ -4,7 +4,7 @@ const router = express.Router();
 const processMid = require('../middlewares/processMiddleware');
 const processHand = require('../handler/processHandler');
 
-router.use(processMid);
+// router.use(processMid);
 
 router.get('/', processHand);
 router.post('/', processHand);
